@@ -1,0 +1,19 @@
+LIBRARY version.dll
+EXPORTS
+    GetFileVersionInfoA=stub0 @1
+    GetFileVersionInfoByHandle=stub1 @2
+    GetFileVersionInfoExA=stub2 @3
+    GetFileVersionInfoExW=stub3 @4
+    GetFileVersionInfoSizeA=stub4 @5
+    GetFileVersionInfoSizeExA=stub5 @6
+    GetFileVersionInfoSizeExW=stub6 @7
+    GetFileVersionInfoSizeW=stub7 @8
+    GetFileVersionInfoW=stub8 @9
+    VerFindFileA=stub9 @10
+    VerFindFileW=stub10 @11
+    VerInstallFileA=stub11 @12
+    VerInstallFileW=stub12 @13
+    VerLanguageNameA=stub13 @14
+    VerLanguageNameW=stub14 @15
+    VerQueryValueA=stub15 @16
+    VerQueryValueW=stub16 @17
